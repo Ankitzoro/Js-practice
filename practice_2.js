@@ -1,6 +1,6 @@
-/**
- * @return {null|boolean|number|string|Array|Object}
- */
+// 2619. Array Prototype Last - LeetCode
+// making a array prototype for returning it's last element
+
 Array.prototype.last = function() {
   // 'this' refers to the array itself
   if(this.length == 0){
